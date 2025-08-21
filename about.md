@@ -11,6 +11,8 @@ My journey began in **mechanical engineering**, designing hydraulic systems and 
 deeper into **data, automation, and AI-driven products**. Today, I bridge these worlds — engineering precision with AI
 innovation — to build solutions that are not only technically sound but also business-impactful.
 
+---
+
 ## My Story
 
 I’m currently working as an **Application Engineer – Artificial Intelligence & Machine Learning at Weichai Power**, a
@@ -24,6 +26,8 @@ intersection of **AI, automation, and manufacturing**.
 Weichai’s mission is to push the boundaries of mobility and power systems, and I am proud to contribute by making their
 processes smarter, faster, and more adaptive.
 
+---
+
 ## What I Build
 
 -   **AI-Driven Dashboards**: Python + SQL systems powered by open-source LLMs like Llama 3.1, cutting response times by
@@ -35,6 +39,8 @@ processes smarter, faster, and more adaptive.
 -   **Automation Pipelines**: Cloud-hosted (AWS) tools streamlining invoices, templates, and inventory forecasting.
 
 In short: I design **end-to-end AI ecosystems** — from research to production — with measurable impact.
+
+---
 
 ## Projects I’m Proud Of
 
@@ -49,6 +55,8 @@ In short: I design **end-to-end AI ecosystems** — from research to production 
 
 Each project reflects my love for tackling problems where **data meets human experience**.
 
+---
+
 ## Skills That Define Me
 
 -   **Machine Learning & AI:** PyTorch, TensorFlow, Scikit-learn, LLM fine-tuning, RAG pipelines.
@@ -60,6 +68,8 @@ Each project reflects my love for tackling problems where **data meets human exp
 What makes me different is not just technical depth, but the ability to **translate complexity into clarity** — aligning
 AI solutions with business impact.
 
+---
+
 ## Education & Growth
 
 -   **PG Diploma in Machine Learning & AI** – IIIT, First-Class with Distinction
@@ -69,6 +79,8 @@ AI solutions with business impact.
 I believe learning is never done. My growth has always come from pushing boundaries, experimenting with new tools, and
 blending my engineering foundation with modern AI capabilities.
 
+---
+
 ## Beyond Work
 
 When I’m not debugging code or optimizing neural nets, you’ll probably find me:
@@ -77,6 +89,8 @@ When I’m not debugging code or optimizing neural nets, you’ll probably find 
 -   Breaking down complex concepts into teaching content.
 -   Exploring how AI can merge with **mobility, manufacturing, and smart energy** — fields where companies like Weichai
     are already leading the charge.
+
+---
 
 ✨ Thanks for visiting my corner of the web. My goal is simple: **to engineer intelligence that powers progress**. If
 that excites you too, let’s connect.

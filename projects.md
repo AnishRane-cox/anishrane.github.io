@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Projects
+title: My Projects
 permalink: /projects/
 ---
 
-# My Projects
-
 Every project I take on starts with a simple question: _“What problem am I really solving?”_ Below are some of my
 favorite projects, explained through the challenges they addressed, the routes I took, and the impact they delivered.
+
+---
 
 ## 🧾 RAG-Based Chatbot for Life Insurance Policy Understanding
 
@@ -30,6 +30,8 @@ make this process human-friendly.
 processed?”_ with clarity and accuracy. It transformed frustrating policy documents into an interactive Q&A tool —
 making insurance more accessible.
 
+---
+
 ## 🚲 Bike Demand Prediction
 
 [View on GitHub](#)
@@ -45,6 +47,8 @@ tomorrow**. Overstocking is wasteful, understocking is bad business.
 
 **The Result:** An R² score of **0.82** — strong predictive power. This meant automated inventory management became
 feasible, helping optimize fleet availability and reducing lost revenue.
+
+---
 
 ## 🩺 Skin Cancer Detection with CNN
 
@@ -62,6 +66,8 @@ detection matters most.
 **The Result:** Achieved **92% test accuracy** across **7 skin cancer subtypes**. This project demonstrated how AI could
 support doctors in early diagnosis, potentially saving lives.
 
+---
+
 ## ✋ Gesture Recognition with 3D-CNN
 
 [View on GitHub](#)
@@ -76,6 +82,8 @@ Human-computer interaction is evolving — and I wanted to explore how machines 
 
 **The Result:** Achieved **78% validation accuracy** on a challenging video dataset. The project laid the foundation for
 gesture-controlled interfaces in AR/VR environments.
+
+---
 
 ## 🌬️ Cylindrical Filter Simulator – Air Filtration System Modeling Tool
 
@@ -94,6 +102,8 @@ AI** into filtration design.
 **The Result:** A research-grade tool with **Colab UI integration**, making it accessible to scientists and engineers.
 It showcased how AI-powered design tools can accelerate innovation in manufacturing.
 
+---
+
 ## ✈️ Travel Experience Chatbot (Ongoing)
 
 [View on GitHub](#)
@@ -110,6 +120,8 @@ it all?”_
 **The Result (so far):** A single interface that gives users real-time, customized travel plans — a project I’m still
 refining, but one that excites me for its everyday usefulness.
 
+---
+
 ## 📰 Semantic Fake News Detection
 
 [View on GitHub](#)
@@ -125,6 +137,8 @@ machines separate fact from fiction.
 
 **The Result:** The **Logistic Regression pipeline** reached **91% accuracy and 0.906 F1 score**. The project proved how
 **simple yet semantic-rich models** can fight misinformation effectively.
+
+---
 
 ✨ Each of these projects started as curiosity but ended up becoming solutions that others could use, learn from, or
 build upon. My hope is that they inspire you to imagine your own — because every project starts with a single _“what
