@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <!-- SEO -->
+    {% seo %}
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/about' | relative_url }}">About</a></li>
+                <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
+                <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+                <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        {{ content }}
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. Built with Jekyll and passion for AI.</p>
+            <div class="footer-links">
+                <a href="{{ site.author.github }}" target="_blank">GitHub</a>
+                <a href="{{ site.author.linkedin }}" target="_blank">LinkedIn</a>
+                <a href="mailto:{{ site.author.email }}">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
