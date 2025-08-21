@@ -495,3 +495,32 @@ body {
         margin-top: 0.3rem;
     }
 }
+
+// Neon horizontal line
+.neon-line {
+    border: none; // Remove default border
+    height: 4px; // Line thickness
+    background: linear-gradient(90deg, $primary-color, $secondary-color, $accent-color); // Neon gradient
+    box-shadow:
+        0 0 10px $primary-color,
+        0 0 20px $secondary-color,
+        0 0 30px $accent-color; // Glow effect
+    border-radius: 2px; // Rounded edges
+    margin: 3rem 0; // Space above and below
+    animation: neonPulse 2s infinite alternate; // Optional pulsing glow
+}
+
+@keyframes neonPulse {
+    from {
+        box-shadow:
+            0 0 10px $primary-color,
+            0 0 20px $secondary-color,
+            0 0 30px $accent-color;
+    }
+    to {
+        box-shadow:
+            0 0 20px $primary-color,
+            0 0 30px $secondary-color,
+            0 0 40px $accent-color;
+    }
+}
