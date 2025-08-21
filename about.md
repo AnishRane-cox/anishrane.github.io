@@ -6,51 +6,75 @@ permalink: /about/
 
 # About Me
 
-I'm a passionate ML/AI engineer with 3+ years of experience in developing cutting-edge machine learning solutions. My
-expertise spans across computer vision, natural language processing, and deep learning architectures.
+Hello! I’m **Anish Nilesh Rane**, a Generative AI and Machine Learning Engineer passionate about transforming real-world challenges into intelligent, scalable solutions.
 
-## Skills
+My journey began in **mechanical engineering**, designing hydraulic systems and CAD models, but curiosity pulled me deeper into **data, automation, and AI-driven products**. Today, I bridge these worlds — engineering precision with AI innovation — to build solutions that are not only technically sound but also business-impactful.
 
-### Machine Learning
+---
 
--   PyTorch, TensorFlow, Scikit-learn
--   Deep Learning, Neural Networks
--   Computer Vision, NLP
+## My Story
 
-### Cloud & MLOps
+I’m currently working as an **Application Engineer – Artificial Intelligence & Machine Learning at Weichai Power**, a global leader in diesel engines, new energy solutions, and intelligent manufacturing.
 
--   AWS, Docker, Kubernetes
--   MLflow, Kubeflow
--   CI/CD for ML
+At Weichai, my role revolves around designing **AI-driven tools** that accelerate engineering workflows, improve decision-making, and drive operational efficiency. Whether it’s predictive maintenance models that reduce downtime, CAD-Llama–powered digital twins, or cloud-integrated dashboards connecting sales and engineering — I thrive at the intersection of **AI, automation, and manufacturing**.
 
-### Programming
+Weichai’s mission is to push the boundaries of mobility and power systems, and I am proud to contribute by making their processes smarter, faster, and more adaptive.
 
--   Python, JavaScript, R, C++
--   SQL, NoSQL databases
--   RESTful APIs
+---
 
-## Experience
+## What I Build
 
-**Senior ML Engineer** | TechCorp | 2023 - Present
+- **AI-Driven Dashboards**: Python + SQL systems powered by open-source LLMs like Llama 3.1, cutting response times by 35%.
+- **RAG Search Engines**: Technical knowledge bases (Qwen2:0.5B) that boost query accuracy by 60%.
+- **Predictive Maintenance Models**: LSTM networks that proactively minimize failures and save resources.
+- **Digital Twin Integrations**: CAD models in CATIA/SolidWorks merged with AI for manufacturability and anomaly detection.
+- **Automation Pipelines**: Cloud-hosted (AWS) tools streamlining invoices, templates, and inventory forecasting.
 
--   Led development of computer vision systems for autonomous vehicles
--   Improved model accuracy by 15% through advanced data augmentation techniques
--   Deployed ML models serving 1M+ predictions daily
+In short: I design **end-to-end AI ecosystems** — from research to production — with measurable impact.
 
-**ML Engineer** | DataInc | 2022 - 2023
+---
 
--   Built recommendation systems using collaborative filtering
--   Implemented A/B testing framework for ML experiments
--   Reduced model training time by 40% through optimization
+## Projects I’m Proud Of
 
-## Education
+- **Insurance Policy Chatbot (2025):** Built a GPT-powered retrieval pipeline with embeddings and dual-stage retrieval for grounded Q&A.
+- **Travel Planner Bot (2024):** Integrated GPT with Amadeus + weather APIs to deliver personalized, real-time itineraries.
+- **Gesture Recognition (2023):** 3D-CNN + ConvLSTM achieving 78% validation accuracy for human-computer interaction.
+- **Semantic Fake News Detection (2023):** Word2Vec + logistic regression pipeline with 91% accuracy and strong F1 performance.
+- **Bike Demand Prediction (2023):** MLR model (R² = 0.82) for rental inventory optimization.
 
-**M.S. Computer Science** | Stanford University | 2022
+Each project reflects my love for tackling problems where **data meets human experience**.
 
--   Specialization: Artificial Intelligence
--   Thesis: "Attention Mechanisms in Computer Vision"
+---
 
-**B.S. Computer Engineering** | UC Berkeley | 2020
+## Skills That Define Me
 
--   Magna Cum Laude
--   Relevant Coursework: Machine Learning, Data Structures, Algorithms
+- **Machine Learning & AI:** PyTorch, TensorFlow, Scikit-learn, LLM fine-tuning, RAG pipelines.
+- **Data & Analytics:** Pandas, NumPy, SQL/NoSQL, Power BI, advanced visualization.
+- **Cloud & MLOps:** AWS, Docker, Kubernetes, CI/CD for AI solutions.
+- **Programming:** Python (my go-to), R, C++, JavaScript.
+- **Engineering Roots:** CAD modeling, hydraulic systems, DFA/DFM principles.
+
+What makes me different is not just technical depth, but the ability to **translate complexity into clarity** — aligning AI solutions with business impact.
+
+---
+
+## Education & Growth
+
+- **PG Diploma in Machine Learning & AI** – IIIT, First-Class with Distinction
+- **B.E. Mechanical Engineering** – SPPU, First-Class with Distinction
+- **Diploma in Mechanical Engineering** – MSBTE, First-Class with Distinction
+
+I believe learning is never done. My growth has always come from pushing boundaries, experimenting with new tools, and blending my engineering foundation with modern AI capabilities.
+
+---
+
+## Beyond Work
+
+When I’m not debugging code or optimizing neural nets, you’ll probably find me:
+- Sketching ideas for new AI tools.
+- Breaking down complex concepts into teaching content.
+- Exploring how AI can merge with **mobility, manufacturing, and smart energy** — fields where companies like Weichai are already leading the charge.
+
+---
+
+✨ Thanks for visiting my corner of the web. My goal is simple: **to engineer intelligence that powers progress**. If that excites you too, let’s connect.
