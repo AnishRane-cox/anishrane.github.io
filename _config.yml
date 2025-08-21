@@ -9,9 +9,32 @@ url: "/Portfolio" # Replace with your GitHub Pages URL
 author:
   name: Anish Nilesh Rane
   email: anishrane2000@gmail.com
-  linkedin: https://www.linkedin.com/in/anish-rane/
+  linkedin: https://www.linkedin.com/in/anish-rane
   github: https://github.com/AnishRane-cox
   phone: "(+91) 7058305706"
+
+# SEO & Social Metadata
+lang: "en"
+logo: "/assets/images/profile.jpg" # Path to profile/logo image
+social:
+  name: "Anish Nilesh Rane"
+  links:
+    - "https://www.linkedin.com/in/anish-rane"
+    - "https://github.com/AnishRane-cox"
+
+# Open Graph (Facebook, LinkedIn) defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/images/og-image.jpg" # Social sharing thumbnail (1200x630px)
+      twitter_card: "summary_large_image"
+      lang: "en"
+
+# Twitter metadata
+twitter:
+  username: "alexchen_ai" # Replace with your Twitter/X handle
+  card: "summary_large_image"
 
 # Build settings
 markdown: kramdown
