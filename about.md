@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# About Me
-
 Hello! I’m **Anish Nilesh Rane**, a Generative AI and Machine Learning Engineer passionate about transforming real-world challenges into intelligent, scalable solutions.
 
 My journey began in **mechanical engineering**, designing hydraulic systems and CAD models, but curiosity pulled me deeper into **data, automation, and AI-driven products**. Today, I bridge these worlds — engineering precision with AI innovation — to build solutions that are not only technically sound but also business-impactful.
