@@ -436,3 +436,62 @@ body {
         transform: translateY(0);
     }
 }
+
+.search-box {
+    width: 100%;
+    max-width: 600px;
+    padding: 0.8rem 1rem;
+    border: 1px solid rgba($primary-color, 0.3);
+    border-radius: 30px;
+    margin: 2rem auto;
+    display: block;
+    background: rgba(white, 0.05);
+    color: $text-light;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+
+    &:focus {
+        outline: none;
+        border-color: $primary-color;
+        box-shadow: 0 0 10px rgba($primary-color, 0.4);
+    }
+}
+
+.search-results {
+    list-style: none;
+    padding: 0;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.search-card {
+    background: rgba(white, 0.05);
+    border: 1px solid rgba($primary-color, 0.2);
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: translateY(-4px);
+        border-color: $primary-color;
+        box-shadow: 0 6px 15px rgba($primary-color, 0.2);
+    }
+
+    a {
+        color: $primary-color;
+        font-weight: 600;
+        text-decoration: none;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+
+    .search-date {
+        display: block;
+        font-size: 0.8rem;
+        color: $text-medium;
+        margin-top: 0.3rem;
+    }
+}
