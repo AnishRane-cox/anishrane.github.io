@@ -1,0 +1,76 @@
+## 4. index.html (Homepage)
+```html
+---
+layout: default
+---
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content fade-in">
+        <h1>{{ site.author.name }}</h1>
+        <h2>Machine Learning & AI Engineer</h2>
+        <p>{{ site.description }}</p>
+        <a href="{{ '/projects' | relative_url }}" class="cta-button">View My Work</a>
+    </div>
+</section>
+
+<!-- About Preview -->
+<section class="section">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-preview">
+            <p>I'm a passionate ML/AI engineer with 3+ years of experience in developing cutting-edge machine learning solutions. My expertise spans across computer vision, natural language processing, and deep learning architectures.</p>
+            <a href="{{ '/about' | relative_url }}" class="read-more">Learn More →</a>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Projects -->
+<section class="section">
+    <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <!-- You can create individual project files in _projects/ directory -->
+            <div class="project-card">
+                <div class="project-image">🧠</div>
+                <h3>Brain Tumor Detection System</h3>
+                <p>Deep learning model using CNN architecture to detect and classify brain tumors from MRI scans with 95% accuracy.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">PyTorch</span>
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">OpenCV</span>
+                </div>
+            </div>
+            <!-- Add more project cards -->
+        </div>
+        <div class="section-cta">
+            <a href="{{ '/projects' | relative_url }}" class="cta-button">View All Projects</a>
+        </div>
+    </div>
+</section>
+
+<!-- Latest Blog Posts -->
+<section class="section">
+    <div class="container">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-grid">
+            {% for post in site.posts limit:3 %}
+            <article class="blog-card">
+                <div class="blog-date">{{ post.date | date: "%B %d, %Y" }}</div>
+                <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+                {% if post.tags.size > 0 %}
+                <div class="blog-tags">
+                    {% for tag in post.tags limit:3 %}
+                    <span class="blog-tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </article>
+            {% endfor %}
+        </div>
+        <div class="section-cta">
+            <a href="{{ '/blog' | relative_url }}" class="cta-button">View All Posts</a>
+        </div>
+    </div>
+</section>
