@@ -1,32 +1,81 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-<article class="post-article">
-    <div class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-        <div class="post-meta">
-            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
-            {% if page.author %} • <span class="post-author">{{ page.author }}</span>{% endif %} {% if page.read_time %}
-            • <span class="read-time">{{ page.read_time }} min read</span>{% endif %}
-        </div>
-        {% if page.tags.size gt 0 %}
-        <div class="post-tags">
-            {% for tag in page.tags %}
-            <span class="tag">{{ tag }}</span>
-            {% endfor %}
-        </div>
-        {% endif %}
+  {% seo %}
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "name": "{{ site.author.name | escape }}",
+        "url": "{{ site.url }}{{ site.baseurl }}",
+        "image": "{{ site.url }}{{ site.baseurl }}/assets/images/profile.jpg",
+        "description": "{{ site.description | strip_newlines | escape }}",
+        "email": "mailto:{{ site.author.email }}",
+        "telephone": "{{ site.author.phone }}",
+        "sameAs": [
+          "{{ site.author.linkedin }}",
+          "{{ site.author.github }}"
+          {% if site.twitter.username %},"https://twitter.com/{{ site.twitter.username }}"{% endif %}
+        ],
+        "jobTitle": "ML/AI Engineer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Independent / Open Source Projects"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "url": "{{ site.url }}{{ site.baseurl }}",
+        "name": "{{ site.title | escape }}",
+        "description": "{{ site.description | strip_newlines | escape }}",
+        "publisher": {
+          "@type": "Person",
+          "name": "{{ site.author.name | escape }}"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "{{ site.url }}{{ site.baseurl }}/search/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/about' | relative_url }}">About</a></li>
+        <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
+        <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+        <li><a href="{{ '/search' | relative_url }}">Search</a></li>
+      </ul>
     </div>
+  </nav>
 
-    <div class="post-content">{{ content }}</div>
+  <main class="main-content">
+    {{ content }}
+  </main>
 
-    <div class="post-navigation">
-        {% if page.previous %}
-        <a href="{{ page.previous.url | relative_url }}" class="nav-prev"> ← {{ page.previous.title }} </a>
-        {% endif %} {% if page.next %}
-        <a href="{{ page.next.url | relative_url }}" class="nav-next"> {{ page.next.title }} → </a>
-        {% endif %}
-    </div>
-</article>
-```
+  <footer class="footer">
+    <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. Built with Jekyll.</p>
+  </footer>
+</body>
+</html>

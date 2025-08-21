@@ -4,9 +4,13 @@ title: Search
 permalink: /search/
 ---
 
-<h1>Search</h1>
-<input type="text" id="search-input" placeholder="Type to search..." />
-<ul id="results-container"></ul>
+<section class="section">
+    <div class="container">
+        <h1>Search</h1>
+        <input type="text" id="search-input" placeholder="Type to search..." class="search-box" />
+        <ul id="results-container" class="search-results"></ul>
+    </div>
+</section>
 
 <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
 <script>
@@ -14,8 +18,9 @@ permalink: /search/
         searchInput: document.getElementById("search-input"),
         resultsContainer: document.getElementById("results-container"),
         json: "{{ site.baseurl }}/search.json",
-        searchResultTemplate: '<li><a href="{url}">{title}</a> - {date}</li>',
-        noResultsText: "No results found",
+        searchResultTemplate:
+            '<li class="search-card"><a href="{url}">{title}</a> <span class="search-date">{date}</span></li>',
+        noResultsText: "<li>No results found</li>",
         limit: 10,
         fuzzy: false
     });
