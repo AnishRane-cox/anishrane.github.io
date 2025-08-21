@@ -1,60 +1,32 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-        <meta
-            name="description"
-            content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+---
+layout: default
+---
 
-        <!-- SEO -->
-        {% seo %}
+<article class="post-article">
+    <div class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+            {% if page.author %} • <span class="post-author">{{ page.author }}</span>{% endif %} {% if page.read_time %}
+            • <span class="read-time">{{ page.read_time }} min read</span>{% endif %}
+        </div>
+        {% if page.tags.size gt 0 %}
+        <div class="post-tags">
+            {% for tag in page.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+    <div class="post-content">{{ content }}</div>
 
-        <!-- Fonts -->
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Animated background -->
-        <div class="particles" id="particles"></div>
-
-        <!-- Navigation -->
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="logo">
-                    <a href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                    <li><a href="{{ '/about' | relative_url }}">About</a></li>
-                    <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
-                    <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
-                    <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <!-- Main Content -->
-        <main class="main-content">{{ content }}</main>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-content">
-                <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. Built with Jekyll and passion for AI.</p>
-                <div class="footer-links">
-                    <a href="{{ site.author.github }}" target="_blank">GitHub</a>
-                    <a href="{{ site.author.linkedin }}" target="_blank">LinkedIn</a>
-                    <a href="mailto:{{ site.author.email }}">Email</a>
-                </div>
-            </div>
-        </footer>
-
-        <!-- JavaScript -->
-        <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-    </body>
-</html>
+    <div class="post-navigation">
+        {% if page.previous %}
+        <a href="{{ page.previous.url | relative_url }}" class="nav-prev"> ← {{ page.previous.title }} </a>
+        {% endif %} {% if page.next %}
+        <a href="{{ page.next.url | relative_url }}" class="nav-next"> {{ page.next.title }} → </a>
+        {% endif %}
+    </div>
+</article>
+```
