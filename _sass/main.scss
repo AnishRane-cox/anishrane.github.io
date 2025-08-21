@@ -496,47 +496,63 @@ body {
     }
 }
 
-/* =========================
-   About Page Styling
-   ========================= */
+// About Page Styling (Dark Theme)
 
 .section.about {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+    background: rgba($bg-medium, 0.6);
+    border-radius: 15px;
+    border: 1px solid rgba($primary-color, 0.2);
+    box-shadow: 0 8px 25px rgba($primary-color, 0.15);
 }
 
 .page-header {
-  text-align: center;
-  margin-bottom: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .page-title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #222;
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: linear-gradient(45deg, $primary-color, $secondary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .page-content {
-  line-height: 1.7;
-  color: #444;
+    line-height: 1.8;
+    color: $text-light;
+    font-size: 1.05rem;
 }
 
 .page-content h2 {
-  margin-top: 2rem;
-  font-size: 1.5rem;
-  border-bottom: 2px solid #eee;
-  padding-bottom: 0.3rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    color: $primary-color;
+    border-bottom: 1px solid rgba($primary-color, 0.3);
+    padding-bottom: 0.3rem;
 }
 
 .page-content ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
 }
 
 .page-content ul li {
-  background: #f9f9f9;
-  margin: 0.5rem 0;
-  padding: 0.6rem 0.8rem;
-  border-radius: 8px;
+    background: rgba($primary-color, 0.08);
+    color: $text-light;
+    margin: 0.6rem 0;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    border: 1px solid rgba($primary-color, 0.2);
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: rgba($primary-color, 0.15);
+        transform: translateX(5px);
+    }
 }
