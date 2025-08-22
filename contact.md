@@ -6,10 +6,14 @@ permalink: /contact/
 
 # Get In Touch
 
-I'm always excited to collaborate on innovative ML/AI projects or discuss opportunities in the field. Let's connect!
+<br>I'm always excited to collaborate on innovative ML/AI projects or discuss opportunities in the field. Let's connect!
 
-**Email**: {{ site.author.email }} **LinkedIn**: [{{ site.author.name }}]({{ site.author.linkedin }}) **GitHub**: [{{
-site.author.name }}]({{ site.author.github }}) **Phone**: {{ site.author.phone }}
+<br>**Email**: {{ site.author.email }}
+<br>**LinkedIn**: [{{ site.author.name }}]({{ site.author.linkedin }})
+<br>**GitHub**: [{{site.author.name }}]({{ site.author.github }})
+<br>**Phone**: {{ site.author.phone }}
+
+<hr class="neon-line">
 
 ## Let's Build Something Amazing Together
 
