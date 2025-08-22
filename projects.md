@@ -11,7 +11,7 @@ favorite projects, explained through the challenges they addressed, the routes I
 
 ## 🧾 RAG-Based Chatbot for Life Insurance Policy Understanding
 
-[View on GitHub](https://github.com/AnishRane-cox/Insurance-HelpMateAI.git)
+<a href="https://github.com/AnishRane-cox/Insurance-HelpMateAI.git" class="cta-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
 <br>Insurance policies are notoriously difficult to read and are full of jargon, dense tables, and scattered clauses. I
 wanted to make this process human-friendly.
@@ -34,7 +34,7 @@ making insurance more accessible.
 
 ## 🚲 Bike Demand Prediction
 
-[View on GitHub](https://github.com/AnishRane-cox/Bike-Demand-Prediction-MLR.git)
+<a href="https://github.com/AnishRane-cox/Bike-Demand-Prediction-MLR.git" class="cta-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
 <br>For companies like Boom Bikes, the challenge is not just selling bikes it’s predicting **how many will be rented
 tomorrow**. Overstocking is wasteful, understocking is bad business.
@@ -52,7 +52,7 @@ feasible, helping optimize fleet availability and reducing lost revenue.
 
 ## 🩺 Skin Cancer Detection with CNN
 
-[View on GitHub](https://github.com/AnishRane-cox/Skin-Cancer-Detection-using-CNN.git)
+<a href="https://github.com/AnishRane-cox/Skin-Cancer-Detection-using-CNN.git" class="cta-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
 <br>Dermatologists face the challenge of distinguishing between multiple skin cancer subtypes early on where accurate
 detection matters most.
@@ -70,7 +70,7 @@ could support doctors in early diagnosis, potentially saving lives.
 
 ## ✋ Gesture Recognition with 3D-CNN
 
-[View on GitHub](https://github.com/AnishRane-cox/Gesture-Recognition-using-3D-CNN.git)
+<a href="https://github.com/AnishRane-cox/Gesture-Recognition-using-3D-CNN.git" class="cta-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
 <br>Human-computer interaction is evolving and I wanted to explore how machines could _see and understand gestures_.
 
@@ -87,7 +87,7 @@ for gesture-controlled interfaces in AR/VR environments.
 
 ## 🌬️ Cylindrical Filter Simulator – Air Filtration System Modeling Tool
 
-[View on GitHub](https://github.com/AnishRane-cox/Cylindrical-Filter-Simulator.git)
+<a href="https://github.com/AnishRane-cox/Cylindrical-Filter-Simulator.git" class="cta-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
 <br>Industrial filters are everywhere — but optimizing them is still largely trial and error. I wanted to bring
 **science + AI** into filtration design.
@@ -124,7 +124,7 @@ refining, but one that excites me for its everyday usefulness.
 
 ## 📰 Semantic Fake News Detection
 
-[View on GitHub](https://github.com/AnishRane-cox/Semantic-Fake-News-Detector.git)
+<a href="https://github.com/AnishRane-cox/Semantic-Fake-News-Detector.git" class="cta-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
 <br>The spread of fake news is a global challenge. I wanted to see if semantics the _meaning_ of words could help
 machines separate fact from fiction.
@@ -140,6 +140,6 @@ how **simple yet semantic-rich models** can fight misinformation effectively.
 
 <hr class="neon-line">
 
-<br>✨ Each of these projects started as curiosity but ended up becoming solutions that others could use, learn from, or
+✨ Each of these projects started as curiosity but ended up becoming solutions that others could use, learn from, or
 build upon. My hope is that they inspire you to imagine your own because every project starts with a single _“what
 if?”_.
