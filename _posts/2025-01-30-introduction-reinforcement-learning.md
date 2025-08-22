@@ -32,7 +32,7 @@ The interaction between agent and environment follows this cycle:
 2. Agent selects an action
 3. Environment transitions to new state
 4. Environment provides reward
-5. Process repeats
+5. Process repeat
 
 ```python
 # Simple RL loop pseudocode
