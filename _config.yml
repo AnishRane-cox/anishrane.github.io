@@ -1,77 +1,12 @@
 title: "Anish Nilesh Rane - ML/AI Engineer"
-description: "Transforming data into intelligent solutions. Passionate about deep learning, computer vision, and building AI systems that make a difference."
+description: "Machine Learning and AI Portfolio"
+baseurl: "/Portfolio"
+url: "https://anishrane-cox.github.io"
 
-# Site settings
-baseurl: "https://anishrane-cox.github.io" # the subpath of your site, e.g. /blog
-url: "/Portfolio" # Replace with your GitHub Pages URL
-
-# Personal Info
 author:
   name: Anish Nilesh Rane
   email: anishrane2000@gmail.com
-  linkedin: https://www.linkedin.com/in/anish-rane
-  github: https://github.com/AnishRane-cox
-  phone: "(+91) 7058305706"
 
-# SEO & Social Metadata
-lang: "en"
-logo: "/assets/images/profile.jpg" # Path to profile/logo image
-social:
-  name: "Anish Nilesh Rane"
-  links:
-    - "https://www.linkedin.com/in/anish-rane"
-    - "https://github.com/AnishRane-cox"
-
-# Open Graph (Facebook, LinkedIn) defaults
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: "/assets/images/og-image.jpg" # Social sharing thumbnail (1200x630px)
-      twitter_card: "summary_large_image"
-      lang: "en"
-
-# Twitter metadata
-twitter:
-  username: "alexchen_ai" # Replace with your Twitter/X handle
-  card: "summary_large_image"
-
-# Build settings
 markdown: kramdown
-highlighter: rouge
-permalink: /:categories/:year/:month/:day/:title/
-
-# Plugins
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-paginate
-
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:name/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
-
-# Pagination
-paginate: 6
-paginate_path: "/blog/page:num/"
-
-# Sass
-sass:
-  sass_dir: _sass
-  style: compressed
