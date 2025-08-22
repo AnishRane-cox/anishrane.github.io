@@ -30,13 +30,13 @@ processes smarter, faster, and more adaptive.
 
 ## What I Build
 
--   <br>**AI-Driven Dashboards**: Python + SQL systems powered by open-source LLMs like Llama 3.1, cutting response times by
+-   **AI-Driven Dashboards**: Python + SQL systems powered by open-source LLMs like Llama 3.1, cutting response times by
     35%.
--   <br>**RAG Search Engines**: Technical knowledge bases (Qwen2:0.5B) that boost query accuracy by 60%.
--   <br>**Predictive Maintenance Models**: LSTM networks that proactively minimize failures and save resources.
--   <br>**Digital Twin Integrations**: CAD models in CATIA/SolidWorks merged with AI for manufacturability and anomaly
+-   **RAG Search Engines**: Technical knowledge bases (Qwen2:0.5B) that boost query accuracy by 60%.
+-   **Predictive Maintenance Models**: LSTM networks that proactively minimize failures and save resources.
+-   **Digital Twin Integrations**: CAD models in CATIA/SolidWorks merged with AI for manufacturability and anomaly
     detection.
--   <br>**Automation Pipelines**: Cloud-hosted (AWS) tools streamlining invoices, templates, and inventory forecasting.
+-   **Automation Pipelines**: Cloud-hosted (AWS) tools streamlining invoices, templates, and inventory forecasting.
 
 <br>In short: I design **end-to-end AI ecosystems** from research to production with measurable impact.
 
@@ -44,14 +44,14 @@ processes smarter, faster, and more adaptive.
 
 ## Projects I’m Proud Of
 
--   <br>**Insurance Policy Chatbot (2025):** Built a GPT-powered retrieval pipeline with embeddings and dual-stage retrieval
+-   **Insurance Policy Chatbot (2025):** Built a GPT-powered retrieval pipeline with embeddings and dual-stage retrieval
     for grounded Q&A.
--   <br>**Travel Planner Bot (2024):** Integrated GPT with Amadeus + weather APIs to deliver personalized, real-time
+-   **Travel Planner Bot (2024):** Integrated GPT with Amadeus + weather APIs to deliver personalized, real-time
     itineraries.
--   <br>**Gesture Recognition (2023):** 3D-CNN + ConvLSTM achieving 78% validation accuracy for human-computer interaction.
--   <br>**Semantic Fake News Detection (2023):** Word2Vec + logistic regression pipeline with 91% accuracy and strong F1
+-   **Gesture Recognition (2023):** 3D-CNN + ConvLSTM achieving 78% validation accuracy for human-computer interaction.
+-   **Semantic Fake News Detection (2023):** Word2Vec + logistic regression pipeline with 91% accuracy and strong F1
     performance.
--   <br>**Bike Demand Prediction (2023):** MLR model (R² = 0.82) for rental inventory optimization.
+-   **Bike Demand Prediction (2023):** MLR model (R² = 0.82) for rental inventory optimization.
 
 <br>Each project reflects my love for tackling problems where **data meets human experience**.
 
@@ -59,11 +59,11 @@ processes smarter, faster, and more adaptive.
 
 ## Skills That Define Me
 
--   <br>**Machine Learning & AI:** PyTorch, TensorFlow, Scikit-learn, LLM fine-tuning, RAG pipelines.
--   <br>**Data & Analytics:** Pandas, NumPy, SQL/NoSQL, Power BI, advanced visualization.
--   <br>**Cloud & MLOps:** AWS, Docker, Kubernetes, CI/CD for AI solutions.
--   <br>**Programming:** Python (my go-to), R, C++, JavaScript.
--   <br>**Engineering Roots:** CAD modeling, hydraulic systems, DFA/DFM principles.
+-   **Machine Learning & AI:** PyTorch, TensorFlow, Scikit-learn, LLM fine-tuning, RAG pipelines.
+-   **Data & Analytics:** Pandas, NumPy, SQL/NoSQL, Power BI, advanced visualization.
+-   **Cloud & MLOps:** AWS, Docker, Kubernetes, CI/CD for AI solutions.
+-   **Programming:** Python (my go-to), R, C++, JavaScript.
+-   **Engineering Roots:** CAD modeling, hydraulic systems, DFA/DFM principles.
 
 <br>What makes me different is not just technical depth, but the ability to **translate complexity into clarity**, aligning
 AI solutions with business impact.
@@ -72,9 +72,9 @@ AI solutions with business impact.
 
 ## Education & Growth
 
--   <br>**PG Diploma in Machine Learning & AI** – IIIT, First-Class with Distinction
--   <br>**B.E. Mechanical Engineering** – SPPU, First-Class with Distinction
--   <br>**Diploma in Mechanical Engineering** – MSBTE, First-Class with Distinction
+-   **PG Diploma in Machine Learning & AI** – IIIT, First-Class with Distinction
+-   **B.E. Mechanical Engineering** – SPPU, First-Class with Distinction
+-   **Diploma in Mechanical Engineering** – MSBTE, First-Class with Distinction
 
 <br>I believe learning is never done. My growth has always come from pushing boundaries, experimenting with new tools, and
 blending my engineering foundation with modern AI capabilities.
@@ -85,9 +85,9 @@ blending my engineering foundation with modern AI capabilities.
 
 <br>When I’m not debugging code or optimizing neural nets, you’ll probably find me:
 
--   <br>Sketching ideas for new AI tools.
--   <br>Breaking down complex concepts into teaching content.
--   <br>Exploring how AI can merge with **mobility, manufacturing, and smart energy** — fields where companies like Weichai
+-   Sketching ideas for new AI tools.
+-   Breaking down complex concepts into teaching content.
+-   Exploring how AI can merge with **mobility, manufacturing, and smart energy** — fields where companies like Weichai
     are already leading the charge.
 
 <hr class="neon-line">

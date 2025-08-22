@@ -10,6 +10,7 @@ favorite projects, explained through the challenges they addressed, the routes I
 <hr class="neon-line">
 
 ## 🧾 RAG-Based Chatbot for Life Insurance Policy Understanding
+
 <div style="text-align: center;">
 <a href="https://github.com/AnishRane-cox/Insurance-HelpMateAI.git" class="cta-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 </div>
@@ -33,6 +34,7 @@ making insurance more accessible.
 <hr class="neon-line">
 
 ## 🚲 Bike Demand Prediction
+
 <div style="text-align: center;">
 <a href="https://github.com/AnishRane-cox/Bike-Demand-Prediction-MLR.git" class="cta-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 </div>
@@ -51,6 +53,7 @@ feasible, helping optimize fleet availability and reducing lost revenue.
 <hr class="neon-line">
 
 ## 🩺 Skin Cancer Detection with CNN
+
 <div style="text-align: center;">
 <a href="https://github.com/AnishRane-cox/Skin-Cancer-Detection-using-CNN.git" class="cta-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 </div>
@@ -69,6 +72,7 @@ could support doctors in early diagnosis, potentially saving lives.
 <hr class="neon-line">
 
 ## ✋ Gesture Recognition with 3D-CNN
+
 <div style="text-align: center;">
 <a href="https://github.com/AnishRane-cox/Gesture-Recognition-using-3D-CNN.git" class="cta-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 </div>
@@ -86,6 +90,7 @@ for gesture-controlled interfaces in AR/VR environments.
 <hr class="neon-line">
 
 ## 🌬️ Cylindrical Filter Simulator – Air Filtration System Modeling Tool
+
 <div style="text-align: center;">
 <a href="https://github.com/AnishRane-cox/Cylindrical-Filter-Simulator.git" class="cta-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 </div>
@@ -105,6 +110,7 @@ engineers. It showcased how AI-powered design tools can accelerate innovation in
 <hr class="neon-line">
 
 ## ✈️ Travel Experience Chatbot (Ongoing)
+
 <div style="text-align: center;">
 <a href="#" class="cta-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 </div>
@@ -123,6 +129,7 @@ refining, but one that excites me for its everyday usefulness.
 <hr class="neon-line">
 
 ## 📰 Semantic Fake News Detection
+
 <div style="text-align: center;">
 <a href="https://github.com/AnishRane-cox/Semantic-Fake-News-Detector.git" class="cta-button" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 </div>
