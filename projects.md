@@ -10,6 +10,7 @@ favorite projects, explained through the challenges they addressed, the routes I
 <hr class="neon-line">
 
 ## 🧾 RAG-Based Chatbot for Life Insurance Policy Understanding
+
 [View on GitHub](https://github.com/AnishRane-cox/Insurance-HelpMateAI.git)
 
 <br>Insurance policies are notoriously difficult to read and are full of jargon, dense tables, and scattered clauses. I
@@ -25,13 +26,14 @@ wanted to make this process human-friendly.
 -   Finally, passed refined results into **GPT-3.5 Turbo**, with hallucination controls to ensure answers stayed
     grounded.
 
-<br>**The Result:** A chatbot that can answer real-world queries like _“Can I surrender this policy?”_ or _“How is the claim
-processed?”_ with clarity and accuracy. It transformed frustrating policy documents into an interactive Q&A tool making
-insurance more accessible.
+<br>**The Result:** A chatbot that can answer real-world queries like _“Can I surrender this policy?”_ or _“How is the
+claim processed?”_ with clarity and accuracy. It transformed frustrating policy documents into an interactive Q&A tool
+making insurance more accessible.
 
 <hr class="neon-line">
 
 ## 🚲 Bike Demand Prediction
+
 [View on GitHub](https://github.com/AnishRane-cox/Bike-Demand-Prediction-MLR.git)
 
 <br>For companies like Boom Bikes, the challenge is not just selling bikes it’s predicting **how many will be rented
@@ -49,6 +51,7 @@ feasible, helping optimize fleet availability and reducing lost revenue.
 <hr class="neon-line">
 
 ## 🩺 Skin Cancer Detection with CNN
+
 [View on GitHub](https://github.com/AnishRane-cox/Skin-Cancer-Detection-using-CNN.git)
 
 <br>Dermatologists face the challenge of distinguishing between multiple skin cancer subtypes early on where accurate
@@ -60,12 +63,13 @@ detection matters most.
 -   Applied **rotation and scaling augmentations** to enrich training data.
 -   Added dropout layers to reduce overfitting.
 
-<br>**The Result:** Achieved **92% test accuracy** across **7 skin cancer subtypes**. This project demonstrated how AI could
-support doctors in early diagnosis, potentially saving lives.
+<br>**The Result:** Achieved **92% test accuracy** across **7 skin cancer subtypes**. This project demonstrated how AI
+could support doctors in early diagnosis, potentially saving lives.
 
 <hr class="neon-line">
 
 ## ✋ Gesture Recognition with 3D-CNN
+
 [View on GitHub](https://github.com/AnishRane-cox/Gesture-Recognition-using-3D-CNN.git)
 
 <br>Human-computer interaction is evolving and I wanted to explore how machines could _see and understand gestures_.
@@ -76,16 +80,17 @@ support doctors in early diagnosis, potentially saving lives.
 -   Tuned hyperparameters like learning rate and batch size.
 -   Regularized with **L2 penalties** to stabilize training.
 
-<br>**The Result:** Achieved **78% validation accuracy** on a challenging video dataset. The project laid the foundation for
-gesture-controlled interfaces in AR/VR environments.
+<br>**The Result:** Achieved **78% validation accuracy** on a challenging video dataset. The project laid the foundation
+for gesture-controlled interfaces in AR/VR environments.
 
 <hr class="neon-line">
 
 ## 🌬️ Cylindrical Filter Simulator – Air Filtration System Modeling Tool
+
 [View on GitHub](https://github.com/AnishRane-cox/Cylindrical-Filter-Simulator.git)
 
-<br>Industrial filters are everywhere — but optimizing them is still largely trial and error. I wanted to bring **science +
-AI** into filtration design.
+<br>Industrial filters are everywhere — but optimizing them is still largely trial and error. I wanted to bring
+**science + AI** into filtration design.
 
 <br>**The Route I Took:**
 
@@ -94,16 +99,17 @@ AI** into filtration design.
 -   Added **geometry optimization** features and a real-world media database.
 -   Exported publication-ready plots (Matplotlib), reports (ReportLab PDF), and datasets (JSON/CSV).
 
-<br>**The Result:** A research-grade tool with **Colab UI integration**, making it accessible to scientists and engineers.
-It showcased how AI-powered design tools can accelerate innovation in manufacturing.
+<br>**The Result:** A research-grade tool with **Colab UI integration**, making it accessible to scientists and
+engineers. It showcased how AI-powered design tools can accelerate innovation in manufacturing.
 
 <hr class="neon-line">
 
 ## ✈️ Travel Experience Chatbot (Ongoing)
+
 [View on GitHub](#)
 
-<br>Planning a trip means juggling multiple apps: flights, hotels, weather, itineraries. I asked: _“What if one AI could do
-it all?”_
+<br>Planning a trip means juggling multiple apps: flights, hotels, weather, itineraries. I asked: _“What if one AI could
+do it all?”_
 
 <br>**The Route I Took:**
 
@@ -117,6 +123,7 @@ refining, but one that excites me for its everyday usefulness.
 <hr class="neon-line">
 
 ## 📰 Semantic Fake News Detection
+
 [View on GitHub](https://github.com/AnishRane-cox/Semantic-Fake-News-Detector.git)
 
 <br>The spread of fake news is a global challenge. I wanted to see if semantics the _meaning_ of words could help
@@ -128,8 +135,8 @@ machines separate fact from fiction.
 -   Generated embeddings using **Word2Vec**.
 -   Trained classifiers: Logistic Regression, Random Forest, and Decision Tree.
 
-<br>**The Result:** The **Logistic Regression pipeline** reached **91% accuracy and 0.906 F1 score**. The project proved how
-**simple yet semantic-rich models** can fight misinformation effectively.
+<br>**The Result:** The **Logistic Regression pipeline** reached **91% accuracy and 0.906 F1 score**. The project proved
+how **simple yet semantic-rich models** can fight misinformation effectively.
 
 <hr class="neon-line">
 
