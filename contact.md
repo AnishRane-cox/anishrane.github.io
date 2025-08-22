@@ -6,7 +6,7 @@ permalink: /contact/
 
 # Get In Touch
 
-<br>I'm always excited to collaborate on innovative ML/AI projects or discuss opportunities in the field. Let's connect!
+<br>I'm always excited to collaborate on innovative ML/AI projects or discuss opportunities in the Mechnical and ML/AI field. Let's connect!
 
 <br>**Email**: {{ site.author.email }}
 <br>**LinkedIn**: [{{ site.author.name }}]({{ site.author.linkedin }})
